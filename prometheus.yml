@@ -1,0 +1,15 @@
+global:
+    scrape_interval:     1s
+  
+scrape_configs:
+  - job_name: 'Backend_01'
+    static_configs:
+      - targets: ['178.62.227.23']
+  
+  - job_name: 'Backend_02'
+    static_configs:
+      - targets: ['178.62.234.235']
+  
+  - job_name: 'Backend_03'
+    static_configs:
+      - targets: ['178.62.233.103']
